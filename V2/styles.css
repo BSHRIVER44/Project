@@ -1,0 +1,82 @@
+@charset "utf-8";
+
+
+
+/*
+  CIS 155 - Web Dev 1 - Quarter Project - V1 Style Sheet
+  Author: Brittney Shriver 
+  Date: 5/1/20
+
+  Filename: styles.css
+
+*/
+
+*/ Structural Styles */
+article, aside, header, nav, footer, section {/*M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules): style reset of the main sectioning elements. */
+	display: block;
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+    background-color: black;
+}
+header {
+    background-color:hsl(60, 2%, 80%);
+    color: hsl(0, 3%, 7%);
+}
+body {
+    background-color: hsl(60, 2%, 80%);
+}
+footer {
+    background-color: hsl(60, 2%, 80%);
+}
+
+
+/* navigation styles */
+nav {
+	background-color: rgb(133, 134, 136);
+	background-color: rgb(133, 134, 136);
+	padding-bottom: 3px;
+	position: relative; /* M3LO8B Demonstrate relative positioning: moves the nav header up to get rid of the gap between the image and the nav. */
+	top: -20px;
+}
+nav::after {
+	clear: both;/* M3LO3 Demonstrate a clearing floats: used to clear the nav to in order to prevent container collapse */
+	content: "";
+	display: table;
+}
+nav>ul {
+	margin-right: 4%;
+	list-style-type:none;/* M2 LO12 Changes how the element displays it's contents by removing the bullet points that would come by default. */
+}
+nav>ul>li {
+	font-size: 2em;
+	color: hsla(313, 7%, 60%, 1);
+	text-decoration:none;
+}
+nav>ul>li>a {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.column {
+	width: 5%;
+	padding: 0px;
+  }
+  /* Clear floats after image containers */
+ .row::after {
+	content: "";
+	clear: both;
+	display: table;
+ }
+  
+img {
+	width:16%;
+  }
+H1 {
+ text-align: center;
+ padding: 15px
+}
