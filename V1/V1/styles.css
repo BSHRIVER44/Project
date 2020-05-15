@@ -80,6 +80,11 @@ H5{
 	font-size: relative;
 }
 
+H3{
+	text-align: left;
+	padding-left: 150px;
+}
+
 /* The grid:equal columns that floats next to each other */
 .row {
 	float: left;
@@ -103,6 +108,7 @@ H5{
 
 * {
 	box-sizing: border-box;
+	position: center;
   }
   
   /* Style inputs */
@@ -131,7 +137,9 @@ H5{
   .container {
 	border-radius: 5px;
 	background-color: #f2f2f2;
-	padding: 10px;
+	padding-left: 500px;
+	padding-top: 15px;
+	padding-right: 50px
   }
   
   /* Create two columns that float next to eachother */
