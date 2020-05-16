@@ -30,6 +30,8 @@ header {
 
 /* navigation styles */
 nav {
+	border:4px double rgb(211, 214, 212);
+	border-radius: 30px;
 	background-color: rgb(133, 134, 136);
 	background-color: rgb(133, 134, 136);
 	padding-bottom: 3px;
@@ -52,7 +54,7 @@ nav>ul>li {
 nav>ul>li>a {
 	display: block;
 	text-align: center;
-	padding-top: 10px;
+	padding-top: 3px;
 }
 
 
@@ -91,7 +93,7 @@ H6{
 
 /* The grid:equal columns that floats next to each other */
 .row {
-	float: left;
+	float: right;
 	padding: 10px;
   }
   
