@@ -128,7 +128,7 @@ H6{
   }
   
   input[type=submit] {
-	background-color: #4CAF50;
+	background-color: rgb(136, 134, 134)
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -136,7 +136,7 @@ H6{
   }
   
   input[type=submit]:hover {
-	background-color: #45a049;
+	background-color: rgb(136, 134, 134)
   }
   
   /* Style the container/contact section */
