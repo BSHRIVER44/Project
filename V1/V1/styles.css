@@ -30,7 +30,7 @@ header {
 
 /* navigation styles */
 nav {
-	border:4px double rgb(211, 214, 212);
+	border:4px double white;
 	border-radius: 30px;
 	background-color: rgb(133, 134, 136);
 	background-color: rgb(133, 134, 136);
@@ -48,13 +48,14 @@ nav>ul {
 }
 nav>ul>li {
 	font-size: 2em;
-	color: hsla(313, 7%, 60%, 1);
+	color: rgb(211, 214, 212);
 	text-decoration: none;
 }
 nav>ul>li>a {
 	display: block;
 	text-align: center;
 	padding-top: 3px;
+	color: white
 }
 
 
