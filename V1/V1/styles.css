@@ -18,10 +18,12 @@ article, aside, header, nav, footer, section {/*M3LO1 Demonstrate the use of a C
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
+	text-decoration: none;
 }
 html {
 	background-color: black;
 	background-image: url("Imgbackground.jpg");
+	text-decoration: none;
 }
 header {
     color: hsl(0, 3%, 7%);
@@ -128,7 +130,7 @@ H6{
   }
   
   input[type=submit] {
-	background-color: rgb(136, 134, 134)
+	background-color: rgb(136, 134, 134);
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -166,5 +168,5 @@ H6{
 	.column, input[type=submit] {
 	  width: 100%;
 	  margin-top: 0;
-	} 
+    } 
 }
