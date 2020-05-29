@@ -174,3 +174,7 @@ H6{
 footer{
 	position: fixed;
 }
+
+body{
+	position: relative;
+}
