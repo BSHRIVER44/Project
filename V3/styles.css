@@ -138,14 +138,14 @@ H6{
   }
   
   input[type=submit]:hover {
-	background-color: rgb(136, 134, 134)
+	background-color: rgb(136, 134, 134);
   }
   
   /* Style the container/contact section */
   .container {
 	border-radius: 50px;
 	padding-left: 500px;
-	padding-right: 50px
+	padding-right: 50px;
 }
   
   /* Create two columns that float next to eachother */
@@ -168,13 +168,25 @@ H6{
 	.column, input[type=submit] {
 	  width: 100%;
 	  margin-top: 0;
-	} 
+  } 
 }
 
-footer{
-	position: fixed;
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height: 5%;
+  padding-bottom: 14px;
+  font-size: 18px;
 }
 
-body{
-	position: relative;
-}
+table, th, td {
+	border: 1.5px solid white;
+	color: white;
+	width: 40%;
+	height: 60%;
+	padding-left: 200px;
+	padding-right: 250px;
+  }
