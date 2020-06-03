@@ -18,25 +18,25 @@ article, aside, header, nav, footer, section {/*M3LO1 Demonstrate the use of a C
 	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	text-decoration: none;
 }
 html {
 	background-color: black;
 	background-image: url("Imgbackground.jpg");
-	text-decoration: none;
+	text-decoration-color: white;
 }
 header {
-    color: hsl(0, 3%, 7%);
+	color: hsl(0, 3%, 7%);
+	text-decoration-color: white;
 }
 
 
 /* navigation styles */
 nav {
-	border:4px double white;
-	border-radius: 30px;
+	border:8px double white;
+	border-radius: 35px;
 	background-color: rgb(133, 134, 136);
 	background-color: rgb(133, 134, 136);
-	padding-bottom: 3px;
+	padding-bottom: -3px;
 	position: relative; /* M3LO8B Demonstrate relative positioning: moves the nav header up to get rid of the gap between the image and the nav. */
 }
 nav::after {
@@ -47,13 +47,13 @@ nav::after {
 nav>ul {
 	margin-right: 4%;
 	list-style-type:none;/* M2 LO12 Changes how the element displays it's contents by removing the bullet points that would come by default. */
+	text-align: center;
 }
 nav>ul>li {
 	font-size: 2em;
-	color: rgb(211, 214, 212);
-	text-decoration: none;
+	text-decoration-color: white;
 }
-nav>ul>li>a {
+nav>ul>li>a> {
 	display: block;
 	text-align: center;
 	padding-top: 3px;
@@ -183,10 +183,22 @@ H6{
 }
 
 table, th, td {
-	border: 1.5px solid white;
+	border: 2px double white;
 	color: white;
 	width: 40%;
 	height: 60%;
 	padding-left: 200px;
 	padding-right: 250px;
+	position: inherit;
+	border-radius: 50px;
+  }
+
+  .social-icon{
+	padding: 10px;
+	width: 65px;
+	float: center;
+  }
+
+  .social-icon:hover{
+	  opacity: 0.7;
   }
