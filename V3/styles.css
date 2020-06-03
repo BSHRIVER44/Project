@@ -11,6 +11,10 @@
 
 */
 
+nav a{
+	color: white;
+}
+
 */ Structural Styles */
 article, aside, header, nav, footer, section {/*M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules): style reset of the main sectioning elements. */
 	display: block;
@@ -48,6 +52,7 @@ nav>ul {
 	margin-right: 4%;
 	list-style-type:none;/* M2 LO12 Changes how the element displays it's contents by removing the bullet points that would come by default. */
 	text-align: center;
+	text-decoration-color: white;
 }
 nav>ul>li {
 	font-size: 2em;
