@@ -49,7 +49,7 @@ nav::after {
 	display: table;
 }
 nav>ul {
-	margin-right: 4%;
+	margin-right: 7%;
 	list-style-type:none;/* M2 LO12 Changes how the element displays it's contents by removing the bullet points that would come by default. */
 	text-align: center;
 	text-decoration-color: white;
@@ -64,6 +64,19 @@ nav>ul>li>a> {
 	padding-top: 3px;
 	color: white;
 }
+li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	padding: 20px;
+	padding-left: 220px;
+  }
+
+  li a:hover{
+	opacity: 0.7;
+  }
 
 H1 {
 	text-align: center;
@@ -94,7 +107,8 @@ H5{
 }
 
 H6{
-	font-size: relative;
+	font-size: 25px;
+	color: white;
 }
 
 /* The grid:equal columns that floats next to each other */
@@ -167,6 +181,8 @@ H6{
 	clear: both;
   }
   
+  
+
   /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 600px) {
 	.column, input[type=submit] {
@@ -198,11 +214,15 @@ table, th, td {
   }
 
   .social-icon{
-	padding: 10px;
-	width: 65px;
+	width: 39px;
 	float: center;
+	padding-top: 20px;
   }
 
   .social-icon:hover{
 	  opacity: 0.7;
+  }
+
+  form{
+	  color: white;
   }
