@@ -216,7 +216,7 @@ table, th, td {
   .social-icon{
 	width: 39px;
 	float: center;
-	padding-top: 20px;
+	padding-top: 3px;
   }
 
   .social-icon:hover{
