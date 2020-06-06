@@ -33,6 +33,14 @@ header {
 	text-decoration-color: white;
 }
 
+main{
+	font-size: x-large;
+	color: white;
+}
+
+.H{
+	font-size: x-large;
+}
 
 /* navigation styles */
 nav {
@@ -209,14 +217,14 @@ table, th, td {
 	height: 60%;
 	padding-left: 200px;
 	padding-right: 250px;
-	position: inherit;
+	position: relative;
 	border-radius: 50px;
   }
 
   .social-icon{
 	width: 39px;
 	float: center;
-	padding-top: 3px;
+	padding-top: 5px;
   }
 
   .social-icon:hover{
