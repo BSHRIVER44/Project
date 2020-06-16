@@ -1,0 +1,295 @@
+@charset "utf-8";
+
+
+
+/*
+  CIS 155 - Web Dev 1 - Quarter Project - V1 Style Sheet
+  Author: Brittney Shriver 
+  Date: 5/1/20
+
+  Filename: styles.css
+
+*/
+
+nav a{
+	color: white;
+}
+
+*/ Structural Styles */
+article, aside, header, nav, footer, section {/*M3LO1 Demonstrate the use of a CSS reset style sheet (CSS, note where you have CSS reset rules): style reset of the main sectioning elements. */
+	display: block;
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+html {
+	background-color: black;
+	background-image: url("Imgbackground.jpg");
+	text-decoration-color: white;
+}
+header {
+	color: hsl(0, 3%, 7%);
+	text-decoration-color: white;
+}
+
+main{
+	font-size: x-large;
+	color: white;
+}
+
+.H{
+	font-size: x-large;
+}
+
+/* navigation styles */
+nav {
+	border:8px double white;
+	border-radius: 35px;
+	background-color: rgb(133, 134, 136);
+	background-color: rgb(133, 134, 136);
+	padding-bottom: -3px;
+	position: relative; /* M3LO8B Demonstrate relative positioning: moves the nav header up to get rid of the gap between the image and the nav. */
+}
+nav::after {
+	clear: both;/* M3LO3 Demonstrate a clearing floats: used to clear the nav to in order to prevent container collapse */
+	content: "";
+	display: table;
+}
+nav>ul {
+	margin-right: 7%;
+	list-style-type:none;/* M2 LO12 Changes how the element displays it's contents by removing the bullet points that would come by default. */
+	text-align: center;
+	text-decoration-color: white;
+}
+nav>ul>li {
+	font-size: 2em;
+	text-decoration-color: white;
+}
+nav>ul>li>a> {
+	display: block;
+	text-align: center;
+	padding-top: 3px;
+	color: white;
+}
+li {
+	float: left;
+  }
+  
+  li a {
+	display: block;
+	padding: 20px;
+	padding-left: 170px;
+	padding-right: 50px;
+  }
+
+  li a:hover{
+	opacity: 0.7;
+  }
+
+H1 {
+	text-align: center;
+	padding: 15px;
+	color: white;
+}
+
+H2{
+	text-align: center;
+	color: white;
+}
+
+H3{
+	text-align: left;
+	padding-left: 115px;
+	font-size: 25px;
+}
+H4{
+	text-align: center;
+	font-size: 25px;
+	color: white;
+}
+
+H5{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+H6{
+	font-size: 25px;
+	color: white;
+}
+
+/* The grid:equal columns that floats next to each other */
+.row {
+	float: right;
+	padding: 10px;
+  }
+  
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .container {
+	position: relative;
+	display: border-box;
+	color: white;
+  }
+  
+
+* {
+	box-sizing: border-box;
+	position: center;
+  }
+  
+  /* Style inputs */
+  input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+  }
+  
+  input[type=submit] {
+	background-color: rgb(136, 134, 134);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+	background-color: rgb(136, 134, 134);
+  }
+  
+  /* Style the container/contact section */
+  .container {
+	float: left;
+	padding-left: 493px;
+	padding-right: 0px;
+	padding-bottom: 60px;
+}
+  
+  /* Create two columns that float next to eachother */
+  .column {
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  
+  
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+	.column, input[type=submit] {
+	  width: 100%;
+	  margin-top: 0;
+  } 
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: left;
+  height: 5%;
+  padding-bottom: 14px;
+  font-size: 18px;
+}
+
+table, th, td {
+	border-style: solid;
+	color: white;
+	width: 40%;
+	height: 60%;
+	padding-left: 170px;
+	padding-right: 232px;
+	position: relative;
+	border-radius: 50px;
+  }
+
+  td {
+    max-width:100%;
+    white-space:nowrap;
+}
+
+  .social-icon{
+	width: 39px;
+	float: center;
+	padding-top: 5px;
+  }
+
+  .social-icon:hover{
+	  opacity: 0.7;
+  }
+
+  form{
+	  color: white;
+  }
+
+/* Large desktop */
+@media (min-width: 1200px) { 
+    body    {
+		padding: 50px;
+		padding-top: 25px;
+		color: rgb(236, 233, 236);
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 1199px) { 
+    body    {
+        padding-left: 30px;
+        padding-right: 30px;
+		color: rgb(230, 228, 230);
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    body    {
+        padding-left: 20px;
+        padding-right: 20px;
+        color: rgb(216, 216, 219);
+    }
+}
+
+/* Landscape phones and down */
+@media (max-width: 480px) { 
+    body    {
+        padding-left: 5px;
+        padding-right: 5px;
+		color: rgb(219, 216, 216);
+		
+    } /* horizontal scrollbar for tables if mobile screen */
+    .tablemobile {
+        overflow-x: auto;
+        display: block;
+}
+}
+
+video{
+	float: left;
+	padding-left: 390px;
+	padding-right: 400px;
+	border: hidden;
+	padding-bottom: 30px;
+}
+
+
+

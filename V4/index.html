@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width; maximum-scale=1; minimum-scale=1;" />
+  <!-- M1LO6 Demonstrate the use of basic HTML tags to create a simple Web page (HTML, this item 
+  should be specified once, describing how the file it is in meets this outcome)-->
+
+  <head>
+        <!--
+        CIS Web Dev 1 - Quarter Project - V1
+        Author: Brittney Shriver 
+        Date: 5/1/20
+
+        Filename: index.html
+        -->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="home, about, shop"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1" />    
+        <title>Art by Brittney</title>
+        <link href="styles.css" rel="stylesheet" /><!-- M3LO1 Demonstrate the use of a CSS reset style sheet: style sheet applied to reset some of the basic structural elements -->
+        <link href="styles.css" rel="stylesheet" /><!--M1 LO8 external stylesheet -->
+        
+  </head>
+    <body>
+         <div id="wrapper">
+             <div id="header"></div>
+             <div id="content"></div>
+             <div id="footer"></div>
+         </div>
+        <!-- Header section -->
+
+        <nav>
+            <ul><!-- M1 LO12 use of unordered list -->
+               
+                <li><a href="index.html">Home</a></li><!--M1 LO13 link that directs to other parts of website -->
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="https://www.instagram.com/johnnsonn669/"><img src="insta.png" alt="Instagram Link" class="social-icon"></a></li>
+            </ul>
+        </nav>
+        <header>
+        <!-- Main section-->
+            <H1 class="headtext">Art by Brittney</H1>
+            <H4 class="headtext"> Welcome to my Website!</H4>
+
+                <H5>I mostly only draw with charcoal material, so all of my pictures come out in black and white.</H5>
+                <H5>I draw all of my photos by looking at an original photogragh, I can only do a good job if you choose a good quality photo for me to look at.</H5>
+                <H5>I price my pictures by how large you want your drawing to be done, and by how much time i have to put in to finish it.</H5>
+    
+                <H5>If you like what you see, please contact me for commissions!</H5>
+    
+        </header>
+
+        <article>
+
+            <H2 class="headtext"> Here are some of my drawings </H2>
+            
+            <!-- The grid: four columns -->
+            <div class="row"></div>
+                <div class="row">
+                <img src="Photo1.jpg" alt="" style="width:21.3%">
+                <img src="Photo10.jpg" alt="" style="width:26.4%">
+                <img src="Photo5.jpg" alt="" style="width:29.6%">
+                <img src="Photo11.jpg" alt="" style="width:21.5%">
+                <img src="Photo12.jpg" alt="" style="width:25.6%">
+                <img src="Photo9.jpg" alt="" style="width:25.2%">
+                <img src="Photo4.jpg" alt="" style="width:24.7%">
+                <img src="Photo6.jpg" alt="" style="width:23.2%">
+                <img src="Photo13.jpg" alt="" style="width:25.2%">
+                <img src="Photo7.jpg" alt="" style="width:26.9%">
+                <img src="Photo8.jpg" alt="" style="width:22%">
+                <img src="Photo2.jpg" alt="" style="width:24.4%">
+                </div>
+                
+                <table class="w3-table">
+                  <tr>
+                    <th>Paper size</th>
+                    <th>Price</th>
+                  </tr>
+                  <tr>
+                    <td>Small(8.5" x 11")</td>
+                    <td> $65 </td>
+                  </tr>
+                  <tr>
+                      <td>Medium(11" x 17")</td>
+                      <td> $85 </td>
+                  </tr>
+                  <tr>
+                    <td>Large(18" x 24")</td>
+                    <td> $105 </td>
+                  </tr>
+                </table>
+                
+            
+            <div class="container">
+                    <div>
+                    <h3>Contact Me Here</h3>
+                    </div>
+                    <div style="text-align:center">
+                    </div>     
+                    <div class="column">
+                    <form><a href="mailto:aartbybrittney@gmail.com"></a>
+                        <label for="fname"> Name</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                        <label for="lname">Last Name</label>
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                        <label for="subject">Subject</label>
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                     </form>
+                    </div>
+             </div> 
+
+             <H1 class="headtext">Here is a video to get a closer look at my art</H1>
+
+             <video controls>
+              <source src="ArtVideo.mp4" type="video/mp4">
+             </video>
+
+        </article>
+        <div class="footer">
+      <p> This is a footer! <a href="#header">Click here</a> to go back to the top of the page.</p>
+      </div>
+    </body>
+</html>  
+
